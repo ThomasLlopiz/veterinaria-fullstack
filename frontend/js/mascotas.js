@@ -7,7 +7,7 @@ const form = document.getElementById("form");
 const exampleModal = document.getElementById("exampleModal");
 const btnGuardar = document.getElementById("btn-guardar");
 const alert = document.getElementById("alert");
-const url = "http://localhost:5000/mascotas";
+const url = "https://veterinaria-backend-puce.vercel.app/mascotas";
 let mascotas = [];
 
 async function listarMascotas() {
